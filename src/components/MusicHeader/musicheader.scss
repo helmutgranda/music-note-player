@@ -1,0 +1,18 @@
+@import './mixins.scss';
+@import './overrides.scss';
+
+.landing-page__heading {
+  @include carbon--type-style('productive-heading-05');
+  padding-top: $spacing-03;
+  padding-bottom: $spacing-03;
+}
+
+.landing-page__subheading {
+  @include carbon--type-style('productive-heading-03');
+  @include carbon--font-weight('semibold');
+}
+
+.landing-page__controller {
+  padding-top: $spacing-05;
+  background-color: red;
+}
